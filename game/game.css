@@ -1,0 +1,59 @@
+body
+{
+    background-image: url(/game/images/back_stars.gif);
+    background-position:center ;
+    background-size:auto;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+    padding-top: 80px;
+
+}
+
+header 
+{
+    width:auto;
+    height: 350px;
+
+    border-radius: 30px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+
+    padding: 20px;
+
+    text-align: center;
+
+}
+div{
+    border-radius: 20px;
+
+    margin: auto;
+    margin-right: 50px; 
+
+    width: 1000px;
+    height: 523px;
+    overflow: hidden;
+    align-items: start;
+    position: relative;
+    top:0;
+    left: 0;
+}
+
+.back
+{
+    position:absolute;
+    z-index: 1;
+}
+.cart
+{
+    position:relative;
+    z-index: 2;
+    margin:0px;
+    margin-right: 0px;
+    left: 0px;
+
+
+}
+
